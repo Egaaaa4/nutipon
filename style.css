@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow", sans-serif;
+}
+body {
+    color: #fff;
+    background-color: #1d1d24fc;
+}
+header a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 16px;
+}
+button {
+    background-color: rgb(169, 105, 50);
+    border: none;
+    border-radius: 15px;
+    padding: 15px 30px;
+    margin: 50px 40px 0 0;
+}
+header {
+    background-image: url(imgs/gradient.png),
+        url(imgs/gorod_vid_sverhu_doroga_156925_3840x2160.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.landing {
+    display: flex;
+}
+
+.stethem {
+    right: -1px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+.landing_info {
+    max-width: 100vh;
+    background-color: rgba(34, 34, 34, 0.647);
+    color: #fff;
+    padding: 50px;
+}
+.landing_info_title {
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+.text_landing_info {
+    font-size: 18px;
+}
+.my_works {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main_my_works img {
+    width: 400px;
+    transition: 0.5s;
+    transform-origin: center;
+}
+.about_my_works {
+    max-width: 700px;
+    display: block;
+    line-height: 30px;
+}
+.main_my_works img:hover {
+    width: 425px;
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.259);
+}
+.my_works {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+.main_my_works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about {
+    background-image: url(imgs/gradient.png),
+        url(imgs/Cigar-Smoke-And-Cognac-Hd-Widescreen-Wallpapers2.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.about_imgs {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    transform-origin: center;
+    transition: 0.5s;
+}
+.about_imgs img:hover {
+    box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.259);
+    transition: 0.5s;
+}
